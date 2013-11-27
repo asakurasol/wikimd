@@ -1,7 +1,7 @@
 {
   "name": "wikimd",
   "version": "0.0.1",
-  "description": "A wiki written in JavaScript for Node.js, using markdown as its markup language, flat-files for storage, with optional git integration.",
+  "description": "A wiki engine powered by Node.js, using markdown as its markup language, flat-files for storage, with optional git integration.",
   "preferGlobal": true,
   "bin": {
     "wikimd": "./index.js"
