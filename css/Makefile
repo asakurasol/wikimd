@@ -1,7 +1,7 @@
-debug_output = main.css
-release_output = main.min.css
+debug_output = wikimd.css
+release_output = wikimd.min.css
 
-entry = src/main.less
+entry = src/index.less
 less = node ../node_modules/less/bin/lessc
 
 all: debug release

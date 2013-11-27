@@ -13,3 +13,8 @@ results
 
 npm-debug.log
 node_modules
+
+css/wikimd.css
+css/wikimd.min.css
+js/wikimd.js
+js/wikimd.min.js

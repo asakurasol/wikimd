@@ -1,5 +1,5 @@
-debug_output = main.js
-release_output = main.min.js
+debug_output = wikimd.js
+release_output = wikimd.min.js
 
 entry = src/index.js
 browserify = node ../node_modules/browserify/bin/cmd.js
