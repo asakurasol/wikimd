@@ -4,7 +4,7 @@
 var spawn = require('child_process').spawn;
 var path = require('path');
 
-var child = spawn('make', ['clean', 'all'], {
+var child = spawn(process.platform === 'win32' ? 'cmake.exe' : 'make', ['clean', 'all'], {
 	cwd: path.join(__dirname, '..'),
 	stdio: [null, process.stdout, process.stderr]
 })
