@@ -1,0 +1,41 @@
+{
+  "name": "wikimd",
+  "version": "0.0.0",
+  "description": "A wiki written in JavaScript for Node.js, using markdown as its markup language, flat-files for storage, with optional git integration.",
+  "preferGlobal": true,
+  "bin": {
+    "wikimd": "./index.js"
+  },
+  "dependencies": {
+    "markdown": ">=0.5.0",
+    "optimist": ">=0.6.0",
+    "mime": ">=1.2.11",
+    "stdclass": ">=0.4.7"
+  },
+  "devDependencies": {
+  	"browserify": ">=2.35.4",
+    "uglify-js": ">=2.4.3",
+    "less": ">=1.5.1"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/BlueJeansAndRain/wikimd.git"
+  },
+  "keywords": [
+    "wiki",
+    "markdown",
+    "md",
+    "server",
+    "app",
+    "git"
+  ],
+  "author": "Chris Ackerman <bluejeansandrain@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/BlueJeansAndRain/wikimd/issues"
+  },
+  "homepage": "https://github.com/BlueJeansAndRain/wikimd"
+}
