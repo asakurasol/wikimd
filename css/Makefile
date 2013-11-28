@@ -2,7 +2,7 @@ debug_output = wikimd.css
 release_output = wikimd.min.css
 
 entry = src/index.less
-less = node ../node_modules/less/bin/lessc
+less = node ../node_modules/.bin/lessc
 
 all: debug release
 

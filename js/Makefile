@@ -2,8 +2,8 @@ debug_output = wikimd.js
 release_output = wikimd.min.js
 
 entry = src/index.js
-browserify = node ../node_modules/browserify/bin/cmd.js
-uglify = node ../node_modules/uglify-js/bin/uglifyjs
+browserify = node ../node_modules/.bin/browserify
+uglify = node ../node_modules/.bin/uglifyjs
 
 all: debug release
 
